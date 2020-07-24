@@ -1,0 +1,22 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body{
+
+}
+
+div {
+  display: inline-block;
+  
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+  background-color: #162c5e;
+}
+.rosa {
+  background-color: #fe0078; 
+}
+

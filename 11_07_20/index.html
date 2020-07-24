@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="tedium">
+        <h3>Tedium</h3>
+    </div>
+    <div class="content">
+        <h1>The Internet changes: HTTP/3 will not use TCP anymore</h1>
+        <p>QUIC is the protocol underlying the next version of HTTP</p>
+        <p class="author">Telmo Subira Rodriguez</p>
+        <p class="text1">
+            The Internet Engineering Task Force (IETF) has revealed that the third official 
+            version of HyperText Transfer Protocol (HTTP) will not use TCP anymore. Instead, 
+            it will run over the QUIC protocol first developed by Google back in 2012.
+        </p>
+
+        <h2>What is QUIC?</h2>
+        <p class="text1">Quick UDP Internet Connections (QUIC) is, as its name states, a transport 
+            layer protocol based on multiplexed UDP connections. In fact, QUIC uses 
+            a combination of TCP + TLS + SPDY over UDP with several enhancements 
+            with respect to the current HTTP/2 over TCP implementation.
+        </p>
+
+        <p class="text1">The IETF has been working on a standardized version of Google’s 
+            QUIC since 2016, and it was recently that they announced their intention 
+            to include it for the new HTTP/3 version. However, the IETF QUIC version 
+            already diverged significantly from the original QUIC design.
+        </p>
+
+        <p class="text1">QUIC protocol aims for simplicity and speed 
+            while maintaining security thanks to the TLS 1.3 encryption. 
+            They developed a more efficient protocol in terms of connection 
+            establishment and data transfer. According to Google, QUIC handshakes 
+            frequently require zero roundtrips before sending payload, as compared to 1–3 
+            roundtrips for TCP+TLS. Actually, the first connection ever requires one roundtrip 
+            and the followings will work with zero.
+        </p>
+
+        <p class="text1">Furthermore, it deals better with packet loss than the current TCP. 
+            Every retransmitted packet consumes a new sequence number, 
+            hence eliminating ambiguities and preventing losses from causing RTO. 
+            As Jana Iyengar from IETF states, QUIC is not only a redefinition of the Internet 
+            transport layer but a reinvention to do the transport right.
+        </p>
+
+        <p class="text1">At the moment, only 1.2 % of the top websites support QUIC, 
+            but they are generally high-traffic sites: almost every Google service supports 
+            their own QUIC protocol.
+        </p>
+
+        <h2>IS QUIC SECURE?</h2>
+    </div>
+
+    <footer>
+        <span>Curtir</span>
+        <span>Comentar</span>
+    </footer>
+    
+</body>
+</html>

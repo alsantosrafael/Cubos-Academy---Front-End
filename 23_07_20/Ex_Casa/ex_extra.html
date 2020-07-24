@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+    <link rel="stylesheet" href="ex_extra.css">
+</head>
+<body>
+    <h1>Cadastro</h1>
+    <form>
+        <label for="name">
+            Nome:
+            <br>
+            <input type="text" id="name" placeholder="Seu nome aqui.">
+            <br>
+        </label>
+        <label for="email">
+            E-mail:
+            <br>
+            <input type="email" id="email" placeholder="Seu e-mail aqui.">
+            <br>
+        </label>
+        <label for="age">
+            Idade:
+            <br>
+            <input type="number" id="age" placeholder="Sua idade."><span>ano(s)</span>
+            <br>
+        </label>
+        <label for="cpf">
+            CPF:
+            <br>
+            <input inputmode="numeric" id="cpf" placeholder="Seu CPF :D">
+            <br>
+        </label>
+        <label for="phone">
+            Telefone:
+            <br>
+            <input type="tel" id="phone" placeholder="Vem de zap!">
+            <br>
+        </label>
+    </form>
+    <h2>Endereço</h2>
+    <form>
+        <label for="address">
+            Endereço:
+            <br>
+            <input type="text" id="address" placeholder="Seu endereço aqui.">
+            <br>
+        </label>
+        <label for="city">
+            Cidade:
+            <br>
+            <input type="text" id="city" placeholder="Sua cidade aqui.">
+            <br>
+        </label>
+        <label for="state">
+            Estado:
+            <br>
+            <select name="state" id="state">
+                <option value="AC">AC</option>
+                <option value="BA">BA</option>
+                <br>
+            </select>
+            <br>
+        </label>
+        <label for="plz">
+            CEP:
+            <br>
+            <input inputmode="numeric" id="plz" placeholder="Seu CEP aqui.">
+            <br>
+        </label>
+
+        <strong>Como nos conheceu?</strong>
+        <br>
+        <label for="social">
+            <input id="social" type="radio" name="Facebook">
+            Facebook
+        </label> 
+        <br>
+        <label for="social">
+            <input id="social" type="radio" name="Instagram">
+            Instagram
+            <br>
+        </label>
+        <label for="social">
+            <input id="social" type="radio" name="LinkedIn">
+            LinkedIn
+            <br>
+        </label>
+        <label for="social">
+            <input id="social" type="radio" name="Friends">
+            Indicação de Amigos
+            <br>
+        </label>
+        <label for="social">
+            <input id="social" type="radio" name="Others">
+            Outros 
+            <br>
+        </label>
+        <label for="texto">
+            Conte um pouco mais sobre como <br> nos conheceu:
+            <br>
+            <textarea name="texto" id="texto"></textarea>
+        </label>
+        <label for="terms">
+            
+            <input type="checkbox" id="terms"><span>Aceito os termos de uso e a <br> política de privacidade</span>
+            <br>
+        </label>
+        <button type ="submit" id="modal">
+            Enviar Cadastro
+        </button>
+    </form>
+    
+</body>
+</html>

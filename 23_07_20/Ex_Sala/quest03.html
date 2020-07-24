@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro Formulário</title>
+</head>
+<body>
+    <h1>Cadastro</h1>
+    <form>
+        <label for="name">
+            Nome:
+            <input id="name" placeholder="Insira aqui seu nome :D">
+            <br>
+        </label>
+        <label for="email">
+            E-mail:
+            <input type="email" id="email" placeholder="Insira aqui seu E-mail :D">
+            <br>
+        </label>
+        <label for="senha">
+            Senha:
+            <input type="password" id="senha" placeholder="Senha (difícil em?)!">
+            <br>
+        </label>
+        <label for="username">
+            Nome de usuário:
+            <input type="text" id="username" placeholder="Escolha um nome legal!">
+            <br>
+        </label>
+        <label for="linkedin">
+            URL do LinkedIn:
+            <input type="url" id="linkedin" placeholder="LinkedIn">
+        </label>
+        <label for="address">
+            URL do LinkedIn:
+            <input type="text" id="adress" placeholder="URL">
+            <br>
+        </label>
+        <label for="city">
+            Cidade:
+            <select name="city" id="city">
+                <option value=""></option>
+                <option value="salvador">Salvador</option>
+                <option value="feira_de_santana">Feira de Santana</option>
+            </select>
+        </label>
+        <label for="state">
+            Estado:
+            <select name="state" id="state">
+                <option value=""></option>
+                <option value="BA">Bahia</option>
+                <option value="MG">Minas Gerais</option>
+            </select>
+        </label>
+        <label for="neighborhood">
+            Bairro:
+            <input type="text" id="neighborhood" placeholder="Seu bairro :D">
+            <br>
+        </label>
+        <label for="numres">
+            Nº da Residência:
+            <input inputmode="numeric" id="numres">
+        </label>
+        <label for="cep">
+            CEP:
+            <input inputmode="numeric" id="cep">
+            <br>
+        </label>
+        <label for="terms">
+            Aceita nossos termos?
+            <input type="checkbox" id=terms>
+            <br>
+        </label>
+        <label for="suggestions">
+            Mensagem em formulário de contato
+            <br>
+            <textarea name="suggestions" id="suggestions" cols="50" rows="10"></textarea>
+            <br>
+        </label>
+        <label for="social">
+            Como ficou sabendo da gente?
+            <br>
+            <input type="radio" name="social" id="social">
+            Instagram
+            <br>
+            <input type="radio" name="social" id="social">
+            E-mail
+            <br>
+            <input type="radio" name="social" id="social">
+            LinkedIn
+            <br>
+            <input type="radio" name="social" id="social">
+            Facebook
+            <br>
+            <input type="radio" name="social" id="social">
+            Outros
+            <br>
+        </label>
+        <label for="obs">
+            Observações de pedido
+            <br>
+            <textarea name="obs" id="obs" cols="40" rows="5"></textarea>
+            <br>
+        </label>
+    </form>
+</body>
+</html>

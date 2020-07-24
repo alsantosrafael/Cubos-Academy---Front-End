@@ -1,0 +1,44 @@
+.tedium {
+    display: flex;
+    text-align: center;
+    background-color: palevioletred;
+    height: 50px;
+    align-items: center;
+   
+}
+.tedium h3 {
+    color: white;
+    width: 100px;
+    margin: 0 auto;
+    font-size: 24px;
+
+}
+.content {
+    font-size: 24px;
+}
+.author {
+
+    font-size: 16px;
+    line-height: 20px;
+    color: gray;
+
+}
+
+footer {
+    text-align: end;
+    height: 100px;
+    background-color: gray;
+}
+
+footer span {
+    display: inline-block;
+    background-color: palevioletred;
+    color: whitesmoke;
+    font-size: 24px;
+    padding: 10px;
+
+    margin-top: 15px;
+    margin-right: 20px;
+
+}
+

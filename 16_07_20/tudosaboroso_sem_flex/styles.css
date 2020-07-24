@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{ 
+    font-family: "Montserrat", sans-serif;
+    background-color:  #FF6A28;
+
+
+
+}
+
+header {
+   
+    height: 82px;
+    background-color: #F1F1F1;
+
+
+}
+
+header ul{
+    margin-left: 63px;
+
+
+}
+
+header ul li{
+    display: inline-block;
+    margin-top: 33px;
+    margin-left: 16px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo {
+    margin-right: 31px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    color: #FF6A28;
+
+}
+
+/*Editando Div Content do index*/
+.content {
+    width: 1172px;
+    height: 1187px;
+    margin: 24px auto 0;
+
+    background: #F5F5F5;
+    border-radius: 4px;
+}
+
+.titulo {
+    padding: 16px;
+
+}
+
+.titulo h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.titulo h3 {
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #777777;
+}
+
+.img_container{
+    width: 1172px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.img_container img {
+    width: 266px;
+    height: 354px;
+    
+}
+
+
+/*Estilizando Lista de Ingredientes*/
+
+
+
+.listas ul{
+    list-style-type: square;
+    margin-left: 16px;
+
+}
+.listas ul li {
+    margin-left: 16px;
+    margin-top: 7px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.listas ul li:last-child{
+    margin-bottom: 20px;
+}
+
+.listas h3 {
+    margin-bottom: 20px;
+    
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.listas ol{
+
+    margin-left: 16px;
+}
+
+.listas ol li {
+    margin-left: 16px;
+    margin-top: 7px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+/*Estilizando Tabela*/
+
+.content2 {
+    
+    margin: 24px auto 0;
+    width: 1172px;
+    height: 707px;
+    background: #F5F5F5;
+    border-radius: 4px;
+}
+
+.htitle {
+    display: inline-block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.porcao {/*Dúvida Como alinhar o Porção no meio do texto sem usar flex?*/
+    display: inline-block;
+    margin-left: 8px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 21px;
+    color: #777777;
+}
+
+.tabela {
+    
+    width: 400px;
+    height: 200px;
+    padding: 5px 5px 5px 5px;
+    margin: 0 auto;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+.tabela td {
+
+
+    text-align: center;
+    padding: 8px 24px;
+    border: 1px solid #000000;
+
+
+}
+
+.tabela tr {
+    padding: 20px;
+}
+
+
+
+#texto {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+
+}
