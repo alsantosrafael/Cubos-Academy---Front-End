@@ -1,0 +1,113 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    border:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;/*Altura mínima do meu body é 100% da minha tela!*/
+}
+
+/*Estilizando Cabeçalho*/
+
+.menu{
+    flex: 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #009ee2;
+
+    margin-bottom: 15px;
+}
+
+.menu-logo{
+    margin-left: 40px
+
+}
+.menu-logo img{
+    height: 50px;
+    width: 100px;
+}
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 40px;
+}
+
+nav ul li {
+    flex: 1 ;
+    background-color: white;
+
+    margin-left: 5px;
+    padding: 5px 20px;
+    border-radius: 8px;
+}
+
+nav ul li a {
+    color: #009ee2;
+}
+
+/*Estilizando os cards*/
+.cards{
+    flex: 1 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;/*Consigo diminuir a parte que sobra do meu card*/
+
+}
+
+.card{
+    display:flex;
+    flex-direction: column;
+    flex:1 1 330px;
+	margin: 1em;
+	padding: 1em 2em;
+    background-color: #f3f3f3;
+    border-radius: 1em;
+}
+
+.titulo-card {
+    margin-bottom: 20px;
+}
+.titulo-card h2{
+    color: #e21f60;
+}
+
+.texto-card{
+    flex: 1;
+}
+.botao-card{
+    display: flex;
+    
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.botao-card{
+    flex: 0 0;
+}
+.botao-card button{
+    padding: 2px 10px;
+    border: 1px solid black;
+
+}
+
+/*Rodapé*/
+.rodape{
+    display: flex;
+    
+	padding: 1em 2em;
+    background-color: #009ee2;
+}
+
+p {
+    text-align: justify;
+}
