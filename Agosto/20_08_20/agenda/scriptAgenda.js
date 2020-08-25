@@ -38,7 +38,8 @@ form.addEventListener("submit", event => {
 
     const texto = document.createElement("span")//Criei isso só para poder alterar meu texto
 
-    texto.innerText = input.value
+    texto.innerText = input.value;
+    
     tarefa.append(checkBox);
     tarefa.append(texto); /*Texto da tarefa que digitei */
     tarefa.append(botaoDeletar);
