@@ -1,0 +1,1 @@
+const cabeca = document.querySelector('.cabeca')
